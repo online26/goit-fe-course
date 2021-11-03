@@ -1,0 +1,48 @@
+/* .navigation li
+{
+  display: inline;
+  text-align: center;
+} */
+body {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #626262;
+  font-family: 'Playfair Display', sans-serif;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  width: 901px;
+  margin: 0px auto;
+  padding-top: 65px;
+  margin-bottom: 92px;
+}
+
+.navigator {
+  width: 573px;
+  margin: 0px auto;
+}
+.navigation-menu {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.navigation-item:not(:nth-last-child(1)) {
+  margin-right: 105px;
+}
+.navigation-item {
+  display: inline-block;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: #626262;
+  text-transform: uppercase;
+  
+}
