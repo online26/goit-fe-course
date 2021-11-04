@@ -4,7 +4,8 @@
   text-align: center;
 } */
 body {
-  font-size: 14px;
+  margin: 0;
+  font-size: 14pt;
   font-weight: normal;
   line-height: 24px;
   color: #626262;
@@ -14,14 +15,12 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
-
 header {
   width: 901px;
   margin: 0px auto;
   padding-top: 65px;
   margin-bottom: 92px;
 }
-
 .navigator {
   width: 573px;
   margin: 0px auto;
@@ -44,5 +43,61 @@ header {
   text-decoration: none;
   color: #626262;
   text-transform: uppercase;
-  
+}
+img {
+  width: 420px;
+  background-color: #f2f2f2;
+  margin-bottom: 29px;
+}
+.main_container {
+  font-size: 0px;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  margin: auto;
+  width: 901px;
+}
+.main_box {
+  width: 421px;
+  height: 488px;
+  margin: 0px;
+  display: inline-block;
+}
+.main_box:nth-child(2n + 1) {
+  margin-right: 58px;
+  margin-bottom: 123px;
+}
+.photo_colontitle {
+  font-size: 14px;
+  display: inline;
+  font-family: "ubuntu", sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: normal;
+  font-weight: lighter;
+  color: #b4ad9e;
+}
+.main_subject {
+  margin: 12px 0px 0px 0px;
+  font-size: 30px;
+  line-height: normal;
+  font-weight: 500;
+}
+.main_text {
+  margin: 20px 0 0 0;
+  font-size: 14px;
+  line-height: 32px;
+}
+.button_main{
+  display: block;
+  width: 164px;
+  height: 60px;
+  font-size: 20px;
+  color: #626262;
+  background-color: transparent;
+  font-family: 'Playfair Display', sans-serif;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 20px;
 }
