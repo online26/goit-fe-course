@@ -5,9 +5,9 @@
 } */
 body {
   margin: 0;
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: normal;
-  line-height: 24px;
+  line-height: 19px;
   color: #626262;
   font-family: 'Playfair Display', sans-serif;
 }
@@ -16,10 +16,10 @@ body {
   margin: 0 auto;
 }
 header {
-  width: 901px;
+  width: 650px;
   margin: 0px auto;
-  padding-top: 65px;
-  margin-bottom: 92px;
+  padding-top: 43px;
+  margin-bottom: 99px;
 }
 .navigator {
   width: 573px;
@@ -33,7 +33,7 @@ header {
 }
 
 .navigation-item:not(:nth-last-child(1)) {
-  margin-right: 105px;
+  margin-right: 104px;
 }
 .navigation-item {
   display: inline-block;
@@ -47,7 +47,7 @@ header {
 img {
   width: 420px;
   background-color: #f2f2f2;
-  margin-bottom: 29px;
+  margin-bottom: 19px;
 }
 .main_container {
   font-size: 0px;
@@ -55,7 +55,7 @@ img {
   padding: 0px;
   list-style-type: none;
   margin: auto;
-  margin-bottom: 40px;
+  margin-bottom: 29px;
   width: 901px;
 }
 .main_box {
@@ -64,24 +64,24 @@ img {
   display: inline-block;
 }
 .main_box:nth-child(2n + 1) {
-  margin-right: 58px;
+  margin-right: 59px;
   
 }
 .main_box:not(:nth-last-child(-n+2)) {
-  margin-bottom: 123px;
+  margin-bottom: 105px;
 }
 .photo_colontitle {
   font-size: 14px;
   display: inline-block;
   font-family: "ubuntu", sans-serif;
-  margin: 0 0 12px 0;
+  margin: 0 0 18px 0;
   text-transform: uppercase;
   line-height: normal;
   font-weight: lighter;
   color: #b4ad9e;
 }
 .main_subject {
-  margin: 0 0 20px 0;
+  margin: 0 0 26px 0;
   font-size: 30px;
   line-height: normal;
   font-weight: 500;
@@ -89,7 +89,7 @@ img {
 .main_text {
   margin: 0;
   font-size: 14px;
-  line-height: 32px;
+  line-height: 24px;
 }
 .button_main{
   cursor: pointer;
@@ -100,7 +100,6 @@ img {
   color: #626262;
   background-color: transparent;
   font-family: 'Playfair Display', sans-serif;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  margin: 0 0 50px 507px;
   padding: 0px;
 }
