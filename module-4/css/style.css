@@ -1,13 +1,14 @@
-.body-page {
+#body {
 	width: 1647px;
-	margin: 0 ;
+	margin: 0;
 	font-family: 'Roboto', 'sans-serif';
 }
-header {
-	width: 1200px;
-	margin: 0 0 115px 275px;
-	margin-bottom: 110px;
+#header {
+	width: 1647px;
+	margin: 0;
+	display: block;
 	text-transform: uppercase;
+	font-family: 'Roboto', 'sans-serif';
 }
 .h__logo{
 	font-size: 35px;
