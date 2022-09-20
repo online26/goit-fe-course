@@ -1,0 +1,273 @@
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+html,
+body {
+   height: 100%;
+}
+
+body {
+   line-height: 1;
+   font-family: roboto;
+   color: #555252;
+}
+
+/* ================================ */
+
+/* header */
+.header {
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 50;
+}
+
+.header__container {
+   width: 1140px;
+   margin: 0 auto;
+   padding: 38px 15px 0px;
+}
+
+.logo {
+   display: inline-block;
+   font-size: 30px;
+   font-weight: 400;
+   color: inherit;
+   text-transform: uppercase;
+   cursor: pointer;
+   text-align: left;
+}
+
+.logo::first-letter {
+   content: '';
+   color: #1abc9c;
+   font-weight: bold;
+}
+
+.header_nav {
+   float: right;
+   align-items: center;
+   margin-top: 0.5em;
+}
+
+.header__menu li {
+   color: black;
+}
+
+/* .header__menu li:first-child {
+   color: #1abc9c;
+} */
+
+.menu__item {
+   display: inline;
+   cursor: pointer;
+   margin-left: 20px;
+   letter-spacing: -1px;
+   vertical-align: middle;
+}
+
+.menu_link {
+   text-transform: uppercase;
+   font-size: 14px;
+   color: inherit;
+   font-weight: 700;
+}
+
+.menu_link:hover {
+   color: #1abc9c;
+   transition: all 0.6s ease;
+}
+
+
+/* ================================ */
+
+/* main */
+
+.page {
+   width: 1140px;
+   margin: 100px auto 105px;
+   padding: 0 15px;
+}
+
+.main-section__products {
+   margin-bottom: 105px;
+}
+
+section>h1,
+h2 {
+   font-size: 48px;
+   font-weight: 800;
+   text-align: center;
+   margin-bottom: 80px;
+}
+
+.title::after {
+   content: '';
+   display: block;
+   border-bottom: 7px solid #1abc9c;
+   width: 165px;
+   padding-top: 30px;
+   margin: 0 auto;
+}
+
+.product_items {
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+}
+
+.product_item:nth-child(-n + 4) {
+   margin-bottom: 30px;
+}
+
+.product_item:not(:nth-child(4n + 4)) {
+   margin-right: 26px;
+}
+
+.main-section__wrapper_item {
+   display: inline-block;
+   width: 100%;
+   height: 40px;
+   text-align: left;
+   font-size: 18px;
+   font-weight: 700;
+   background-color: #323232;
+   border-right: 54px solid #8c8c8c;
+   transition: all 0.5s linear 0s;
+}
+
+.main-section__wrapper_item:hover {
+   background-color: #1abc9c;
+   border-right-color: #7fd9c7;
+   transition: all 1s, linear 0.5s;
+}
+
+.button {
+   display: block;
+   color: white;
+   width: 255px;
+   padding-top: 12px;
+   padding-left: 10px;
+}
+
+.item_name {
+   display: inline-block;
+   width: 200px;
+   height: 18px;
+   text-transform: uppercase;
+   line-height: 18px;
+}
+
+.item_price {
+   display: inline-block;
+}
+
+.product_item {
+   display: inline-block;
+   width: 255px;
+   height: 320px;
+   background-color: #e9f0fd;
+}
+
+/* main news */
+.main-section__news {
+   font-family: open-sans, sans-serif;
+   padding-bottom: 80px
+}
+
+.name_new {
+   font-size: 19px;
+   font-weight: 600;
+   width: 300px;
+   margin-bottom: 14px;
+   line-height: 1.8;
+   letter-spacing: -1px;
+}
+
+.name_new::after {
+   content: '';
+   display: block;
+   border-bottom: 3px solid #1abc9c;
+   width: 137px;
+   padding-top: 14px;
+   text-align: left;
+   margin-bottom: 30px;
+}
+
+.item {
+   display: inline-block;
+   width: 350px;
+   overflow: hidden;
+   margin-right: 25px;
+}
+
+.item:last-child {
+   margin-right: 0px;
+}
+
+.news_img {
+   max-height: 260px;
+   margin-bottom: 15px;
+}
+
+.text_news {
+   font-size: 15px;
+   font-weight: 300;
+   line-height: 1.8;
+   margin-bottom: 10px;
+}
+
+.button_news {
+   display: inline-block;
+   box-sizing: inherit;
+   padding: 0 44px;
+   outline: none;
+   background-color: #4ec6ab;
+   text-decoration: none;
+   color: white;
+   cursor: pointer;
+   height: 50px;
+   line-height: 50px;
+   border-radius: 4px;
+   text-align: center;
+   font-size: 16px;
+   font-weight: 100;
+   line-height: 50px;
+   transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28) 0s;
+}
+
+.button_news:hover {
+   background-color: #128b73;
+   box-shadow: 5px -4px 11px -4px rgba(97, 94, 94, 0.66);
+
+}
