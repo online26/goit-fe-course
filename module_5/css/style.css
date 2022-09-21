@@ -45,20 +45,33 @@ body {
 /* ================================ */
 
 /* header */
-.header {
-   top: 0;
-   left: 0;
-   width: 100%;
-   z-index: 50;
-}
+
 
 .header__container {
-   width: 1140px;
+   width: 1110px;
    margin: 0 auto;
-   padding: 38px 15px 0px;
+   /* padding: 38px 0 0; */
+}
+.wrapper{
+   position: absolute;
+   left: 0;
+   right: 0;
+   height: 50px;
+   background-color: #1abc9c;
+   z-index: -1;
+}
+.supheader{
+
+}
+.supheader__phone,
+.supheader__info{
+   display: inline-block;
+   left: 58px;
+   top: 25px;
+   text-decoration: none;
 }
 
-.logo {
+.header__container_logo {
    display: inline-block;
    font-size: 30px;
    font-weight: 400;
@@ -68,7 +81,7 @@ body {
    text-align: left;
 }
 
-.logo::first-letter {
+.header__container_logo::first-letter {
    content: '';
    color: #1abc9c;
    font-weight: bold;
@@ -84,9 +97,6 @@ body {
    color: black;
 }
 
-/* .header__menu li:first-child {
-   color: #1abc9c;
-} */
 
 .menu__item {
    display: inline;
