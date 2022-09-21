@@ -47,29 +47,29 @@ body {
 /* header */
 
 
-.header__container {
-   width: 1110px;
-   margin: 0 auto;
-   /* padding: 38px 0 0; */
+.header {
+   height: 140px;
 }
-.wrapper{
-   position: absolute;
-   left: 0;
-   right: 0;
+
+.header__supheader-wrapper {
    height: 50px;
    background-color: #1abc9c;
-   z-index: -1;
 }
-.supheader{
+
+.header__supheader {
+   width: 1140px;
+   margin: 0 auto;
 
 }
-.supheader__phone,
-.supheader__info{
+
+.header__connection>div {
    display: inline-block;
-   left: 58px;
-   top: 25px;
-   text-decoration: none;
+   padding-top: 17px;
+   margin-right: 30px;
+   color: white;
+
 }
+
 
 .header__container_logo {
    display: inline-block;
