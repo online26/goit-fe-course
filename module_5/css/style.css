@@ -49,11 +49,13 @@ body {
 
 .header {
    height: 140px;
+   /* margin-bottom: 600px; */
 }
 
 .header__supheader-wrapper {
    height: 50px;
    background-color: #1abc9c;
+   margin-bottom: 35px;
 }
 
 .header__supheader {
@@ -61,7 +63,10 @@ body {
    margin: 0 auto;
 
 }
-
+.header__connection{
+   display: inline-block;
+   
+}
 .header__connection>div {
    display: inline-block;
    padding-top: 17px;
@@ -69,9 +74,33 @@ body {
    color: white;
 
 }
+.header__connection a{
+   color: white;
+   font-family: 'Maven Pro', sans-serif;
+   font-size: 12px;
+}
+.header__user-list{
+   display: inline-block;
+   float: right;
+   padding-top:20px ;
+
+}
+
+.header__user-list a{
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+   margin-right: 30px;
+   font-size: 14px;
+   font-weight: 100;
+}
+
+.subheader{
+   width: 1140px;
+   margin: 0 auto;
+}
 
 
-.header__container_logo {
+.subheader__logo {
    display: inline-block;
    font-size: 30px;
    font-weight: 400;
@@ -81,7 +110,7 @@ body {
    text-align: left;
 }
 
-.header__container_logo::first-letter {
+.subheader__logo::first-letter {
    content: '';
    color: #1abc9c;
    font-weight: bold;
@@ -125,9 +154,32 @@ body {
 
 .page {
    width: 1140px;
-   margin: 100px auto 105px;
+   margin: 0 auto 105px;
    padding: 0 15px;
 }
+
+/* title */
+.main-section__slider {
+   position: relative;
+   max-width: 1600px;
+   max-height: 600px;
+}
+.main-section__banner {
+   position: absolute;
+   top: 0;
+   left: -130px;
+   max-width: 1600px;
+   max-height: 600px;
+}
+
+.main-section__title {
+   position: absolute;
+}
+.main-section__title-text {
+}
+.main-section__title-button {
+}
+
 
 .main-section__products {
    margin-bottom: 105px;
