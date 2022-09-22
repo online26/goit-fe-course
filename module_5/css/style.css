@@ -59,14 +59,16 @@ body {
 }
 
 .header__supheader {
-   width: 1140px;
+   width: 1100px;
    margin: 0 auto;
 
 }
-.header__connection{
+
+.header__connection {
    display: inline-block;
-   
+
 }
+
 .header__connection>div {
    display: inline-block;
    padding-top: 17px;
@@ -74,19 +76,21 @@ body {
    color: white;
 
 }
-.header__connection a{
+
+.header__connection a {
    color: white;
    font-family: 'Maven Pro', sans-serif;
    font-size: 12px;
 }
-.header__user-list{
+
+.header__user-list {
    display: inline-block;
    float: right;
-   padding-top:20px ;
+   padding-top: 20px;
 
 }
 
-.header__user-list a{
+.user-item {
    color: white;
    font-family: 'Open Sans', sans-serif;
    margin-right: 30px;
@@ -94,8 +98,12 @@ body {
    font-weight: 100;
 }
 
-.subheader{
-   width: 1140px;
+.user-item:last-child {
+   margin-right: 0px;
+}
+
+.subheader {
+   width: 1100px;
    margin: 0 auto;
 }
 
@@ -153,32 +161,80 @@ body {
 /* main */
 
 .page {
-   width: 1140px;
+   width: 1100px;
    margin: 0 auto 105px;
-   padding: 0 15px;
 }
 
 /* title */
 .main-section__slider {
    position: relative;
-   max-width: 1600px;
-   max-height: 600px;
-}
-.main-section__banner {
-   position: absolute;
-   top: 0;
-   left: -130px;
-   max-width: 1600px;
-   max-height: 600px;
+   width: 1600px;
+   height: 600px;
+   right: 250px;
+   background-color: #323232;
+
 }
 
-.main-section__title {
+.slider__banner {
    position: absolute;
+   top: 0;
+   width: 1600px;
+   opacity: 1;
+   transition: .5s ease;
+
 }
-.main-section__title-text {
+
+.slider__banner:hover {
+
+   opacity: 0.5;
+   background-color: #201f1fb7;
 }
-.main-section__title-button {
+
+.slider__title {
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   text-align: center;
 }
+
+.slider__title-name::first-line {
+   font-family: 'roboto';
+   font-weight: 100;
+}
+
+.slider__title-name {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 48px;
+   font-weight: 100;
+   color: #ffffff;
+   margin-bottom: 25px;
+}
+
+
+
+.slider__title-span--rb-green {
+   font-weight: 700;
+   color: #1abc9c;
+}
+
+.slider__title-span--os-green {
+   font-weight: 700;
+   color: #1abc9c;
+}
+
+.main-section__button {
+   width: 120px;
+   height: 42px;
+   background-color: #1abc9c;
+   color: #ffffff;
+   font-size: 14px;
+   font-weight: 400;
+   cursor: pointer;
+}
+
+
+
+
 
 
 .main-section__products {
