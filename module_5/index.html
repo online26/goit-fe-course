@@ -15,8 +15,8 @@
 <body>
    <header class="header">
       <div class="header__supheader-wrapper">
-         <div class="header__supheader">
-            <div class="header__connection ">
+         <div class="header__supheader container">
+            <div class="header__connection row">
                <div class="supheader__phone">
                   <img class="supheader__image" src="img/supheader/phone.png" alt="phone">
                   <a href="tel:123-123456789">123-123456789</a>
@@ -26,7 +26,7 @@
                   <a href="#" class="supheader__mail">info@tnt.com</a>
                </div>
             </div>
-            <div class="header__user-list">
+            <div class="header__user-list row">
                <a class="user-item" href="#">My account</a>
                <a class="user-item" href="#">Wishlist</a>
                <a class="user-item" href="#">Cart</a>
@@ -35,34 +35,36 @@
             </div>
          </div>
       </div>
-      <div class="subheader">
-         <a href="" class="subheader__logo">mart</a>
-         <nav class="header_nav">
-            <ul class="header__menu menu">
-               <li class="menu__item">
-                  <a href="" class="menu_link active">Home</a>
-               </li>
-               <li class="menu__item">
-                  <a href="" class="menu_link">About Us</a>
-               </li>
-               <li class="menu__item">
-                  <a href="" class="menu_link">page</a>
-               </li>
-               <li class="menu__item">
-                  <a href="" class="menu_link">shop</a>
-               </li>
-               <li class="menu__item">
-                  <a href="" class="menu_link">Blog</a>
-               </li>
-               <li class="menu__item">
-                  <a href="" class="menu_link">Contact us</a>
-               </li>
-            </ul>
-         </nav>
+      <div class="container">
+         <div class="row">
+            <a href="" class="subheader__logo">mart</a>
+            <nav class="header_nav">
+               <ul class="header__menu menu">
+                  <li class="menu__item">
+                     <a href="" class="menu_link active">Home</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="" class="menu_link">About Us</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="" class="menu_link">page</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="" class="menu_link">shop</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="" class="menu_link">Blog</a>
+                  </li>
+                  <li class="menu__item">
+                     <a href="" class="menu_link">Contact us</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
       </div>
    </header>
-   <main class="page">
-      <section class="main-section__slider slider">
+   <main class="container">
+      <section class="main-section__slider">
          <img class="slider__banner" src="img/banner.jpg" alt="banner">
          <div class="slider__title">
             <h1 class="slider__title-name">DRESSES <span class="slider__title-span--rb-green">&</span> JEANS <br>
@@ -70,6 +72,59 @@
             </h1>
             <button class="main-section__button">Buy Now</button>
          </div>
+      </section>
+      <section class="main-section about">
+         <ul class="about__items items__about">
+            <li class="about__item">
+               <img src="img/about/01.png" alt="Image SETTING" class="about__item-img">
+               <h3 class="about__item-title">setting</h3>
+               <p class="about__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                  excepturi
+                  nostrum distinctio ea! Unde quaerat earum incidunt asperiores, ipsam expedita, nulla iusto corrupti
+                  praesentium eum aut aliquid nostrum?</p>
+            </li>
+            <li class="about__item">
+               <img src="img/about/02.png" alt="Image MONEY BACK" class="about__item-img">
+               <h3 class="about__item-title">money back</h3>
+               <p class="about__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                  excepturi
+                  nostrum distinctio ea! Unde quaerat earum incidunt asperiores, ipsam expedita, nulla iusto corrupti
+                  praesentium eum aut aliquid nostrum?</p>
+            </li>
+            <li class="about__item">
+               <img src="img/about/03.png" alt="Image WORLDWIDE SHIPPING" class="about__item-img">
+               <h3 class="about__item-title">worldwide shipping</h3>
+               <p class="about__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                  excepturi
+                  nostrum distinctio ea! Unde quaerat earum incidunt asperiores, ipsam expedita, nulla iusto corrupti
+                  praesentium eum aut aliquid nostrum?</p>
+            </li>
+            <li class="about__item">
+               <img src="img/about/04.png" alt="Image WORLDWIDE SHIPPING" class="about__item-img">
+               <h3 class="about__item-title">worldwide shipping</h3>
+               <p class="about__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                  excepturi
+                  nostrum distinctio ea! Unde quaerat earum incidunt asperiores, ipsam expedita, nulla iusto corrupti
+                  praesentium eum aut aliquid nostrum?</p>
+            </li>
+         </ul>
+      </section>
+      <section class="colection">
+         <article class="container">
+            <h2 class="title">new collection</h2>
+            <ul class="colection__items">
+               <li class="colection__item">
+                  <img src="img/new_collection/img_01.png" alt="Card_1" class="col-item__img">
+                  <button class="col-btn">
+                     <span class="col-btn--lft">Blue Tshirt</span>
+                     <span class="col-btn--wht">$26</span></button>
+               </li>
+            </ul>
+
+         </article>
+
+
+
       </section>
       <!-- <section class="main-section__products">
          <h1 class="title__products title">FEATURED PRODUCTS</h1>
