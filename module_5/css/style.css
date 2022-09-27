@@ -84,7 +84,6 @@ body {
 }
 
 .header__user-list {
-   display: inline-block;
    float: right;
    padding-top: 20px;
 
